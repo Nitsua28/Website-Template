@@ -1,2 +1,2 @@
 # Website-Templates
-Website templates using bootstrap and MDB
+Website templates using React
