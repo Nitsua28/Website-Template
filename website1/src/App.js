@@ -3,6 +3,7 @@ import ToDoList from './components/ToDoList';
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import Home from './components/pages/Home';
 // const title = {
 //       intro1: "Greetings!",
 //       intro2: "My name is Austin Chan",
@@ -30,7 +31,7 @@ export default function App() {
                         <Router>
                               <Navbar />
                               <Switch>
-                                    <Route path='/' exact />
+                                    <Route path='/' exact component={Home} />
                               </Switch>
                         </Router>
                   </>

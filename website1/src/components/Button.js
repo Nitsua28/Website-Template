@@ -24,7 +24,8 @@ export const Button = ({
     return(
         <Link to='/sign-up' className='btn-mobile'>
             <button
-                className={'btn ${checkButtonStyle} ${checkButtonSize}'}
+                className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+                // template literals with back ticks. imbed functions in strings
                 onClick={onClick}
                 type={type}
                 >
