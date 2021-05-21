@@ -7,7 +7,7 @@ video{
 }
 
 .hero-container {
-    /* background: url('images/img-home.jpg') center center/cover
+    /* background: url('/images/img-home.jpg') center center/cover
     no-repeat; */
     height: 100vh;
     width: 100%;
@@ -15,7 +15,7 @@ video{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    box-shadow: inset 0 0 0 500px rgba(124, 20, 20, 0.2);
     object-fit: contain;
 }
 
@@ -46,9 +46,9 @@ video{
 }
 
 @media screen and (max-width: 960px) {
-        .hero-container > h1 {
-        font-size: 70px;
-        margin-top: -150px;
+    .hero-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
     }
 }
 /*resizing updates*/
