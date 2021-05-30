@@ -8,10 +8,10 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Subscribe to our Monthly Subscription!
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          Never reply to our newsletter
         </p>
         <div className='input-areas'>
           <form>
@@ -29,18 +29,18 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
+            <Link to='/sign-up'>Sign up</Link>
+            <Link to='/'>Food</Link>
+            <Link to='/'>Paper</Link>
+            <Link to='/'>Links</Link>
             <Link to='/'>Terms of Service</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <Link to='/'>Places</Link>
+            <Link to='/'>Scholarships</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
@@ -53,7 +53,7 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
+            <Link to='/'>LinkedIn</Link>
             <Link to='/'>Facebook</Link>
             <Link to='/'>Youtube</Link>
             <Link to='/'>Twitter</Link>
@@ -65,7 +65,7 @@ function Footer() {
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
               WEBSITE1
-              <i class='fab fa-typo3' />
+              <i class='fas fa-code' />
             </Link>
           </div>
           <small class='website-rights'>Website1 © 2021</small>
